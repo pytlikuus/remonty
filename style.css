@@ -29,7 +29,7 @@ body {
     left: 0;
     right: 0;
     height: 10vh;
-    background: rgba(0, 0, 0, .8);
+    background: rgba(0, 0, 0, .7);
 }
 
 .top h1 {
@@ -40,4 +40,43 @@ body {
     /* padding: 10px; */
     letter-spacing: .6rem;
     font-family: oswald, sans-serif;
+}
+
+.main {
+    position: relative;
+    margin: 1vh;
+    padding: 1vh;
+    width: calc(100% - 2vh);
+    height: calc(90vh - 2vh);
+    background-color: rgba(32, 32, 32, 0.8);
+    clip-path: polygon(0 0, 100% 0, 100% 15%, 85% calc(100% / 2), 100% 85%, 100% 100%, 0 100%, 0 85%, 15% calc(100% / 2), 0 15%, 0 0);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(255, 145, 0);
+    font-family: oswald, serif;
+    font-size: 1.9rem;
+    letter-spacing: 2px;
+}
+
+ul {
+    margin-top: 1vh;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    font-size: 1.3rem;
+    line-height: 2.2rem;
+    color: rgb(255, 230, 0);
+    font-family: lato, serif;
+    letter-spacing: 2px;
+}
+
+.about {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
