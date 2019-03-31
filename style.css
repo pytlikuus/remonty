@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color: #ff0000;
+    --size: 16px;
+}
+
+html {
+    font-size: var(--size);
+    color: var(--color);
+}
+
+body {
+    background-image: url('img/bathroom400.jpg');
+    background-size: cover;
+    min-height: 100vh;
+}
+
+/* Logo majster */
+.top {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10vh;
+    background: rgba(0, 0, 0, .8);
+}
+
+.top h1 {
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    line-height: 10vh;
+    text-align: center;
+    /* padding: 10px; */
+    letter-spacing: .6rem;
+}
