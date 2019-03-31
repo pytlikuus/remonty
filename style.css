@@ -17,6 +17,8 @@ html {
 body {
     background-image: url('img/bathroom400.jpg');
     background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
     min-height: 100vh;
 }
 
@@ -37,4 +39,5 @@ body {
     text-align: center;
     /* padding: 10px; */
     letter-spacing: .6rem;
+    font-family: oswald, sans-serif;
 }
